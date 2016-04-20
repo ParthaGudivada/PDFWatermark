@@ -1,0 +1,411 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC0253C41CC6FBF300630306 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0253C31CC6FBF300630306 /* AppDelegate.swift */; };
+		AC0253C61CC6FBF300630306 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC0253C51CC6FBF300630306 /* Assets.xcassets */; };
+		AC0253C91CC6FBF300630306 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC0253C71CC6FBF300630306 /* LaunchScreen.storyboard */; };
+		AC0253D41CC6FBF300630306 /* PDFWaterMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0253D31CC6FBF300630306 /* PDFWaterMarkTests.swift */; };
+		AC0253DF1CC6FC2700630306 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0253DE1CC6FC2700630306 /* MainViewController.swift */; };
+		AC0253E11CC6FC5800630306 /* PDFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0253E01CC6FC5800630306 /* PDFViewController.swift */; };
+		AC0253E31CC6FCC600630306 /* PDFRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC0253E21CC6FCC600630306 /* PDFRenderer.swift */; };
+		AC0253E71CC6FD3000630306 /* roarkSwift.pdf in Resources */ = {isa = PBXBuildFile; fileRef = AC0253E41CC6FD3000630306 /* roarkSwift.pdf */; };
+		AC22F03A1CC7B8690057D432 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC22F0391CC7B8690057D432 /* UIView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC0253D01CC6FBF300630306 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC0253B81CC6FBF300630306 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC0253BF1CC6FBF300630306;
+			remoteInfo = PDFWaterMark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC0253C01CC6FBF300630306 /* PDFWaterMark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PDFWaterMark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0253C31CC6FBF300630306 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC0253C51CC6FBF300630306 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC0253C81CC6FBF300630306 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC0253CA1CC6FBF300630306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0253CF1CC6FBF300630306 /* PDFWaterMarkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PDFWaterMarkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC0253D31CC6FBF300630306 /* PDFWaterMarkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFWaterMarkTests.swift; sourceTree = "<group>"; };
+		AC0253D51CC6FBF300630306 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC0253DE1CC6FC2700630306 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		AC0253E01CC6FC5800630306 /* PDFViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFViewController.swift; sourceTree = "<group>"; };
+		AC0253E21CC6FCC600630306 /* PDFRenderer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PDFRenderer.swift; sourceTree = "<group>"; };
+		AC0253E41CC6FD3000630306 /* roarkSwift.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = roarkSwift.pdf; sourceTree = "<group>"; };
+		AC22F0391CC7B8690057D432 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC0253BD1CC6FBF300630306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0253CC1CC6FBF300630306 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC0253B71CC6FBF300630306 = {
+			isa = PBXGroup;
+			children = (
+				AC0253C21CC6FBF300630306 /* PDFWaterMark */,
+				AC0253D21CC6FBF300630306 /* PDFWaterMarkTests */,
+				AC0253C11CC6FBF300630306 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC0253C11CC6FBF300630306 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0253C01CC6FBF300630306 /* PDFWaterMark.app */,
+				AC0253CF1CC6FBF300630306 /* PDFWaterMarkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC0253C21CC6FBF300630306 /* PDFWaterMark */ = {
+			isa = PBXGroup;
+			children = (
+				AC22F0391CC7B8690057D432 /* UIView.swift */,
+				AC0253E41CC6FD3000630306 /* roarkSwift.pdf */,
+				AC0253C31CC6FBF300630306 /* AppDelegate.swift */,
+				AC0253C51CC6FBF300630306 /* Assets.xcassets */,
+				AC0253C71CC6FBF300630306 /* LaunchScreen.storyboard */,
+				AC0253CA1CC6FBF300630306 /* Info.plist */,
+				AC0253DE1CC6FC2700630306 /* MainViewController.swift */,
+				AC0253E01CC6FC5800630306 /* PDFViewController.swift */,
+				AC0253E21CC6FCC600630306 /* PDFRenderer.swift */,
+			);
+			path = PDFWaterMark;
+			sourceTree = "<group>";
+		};
+		AC0253D21CC6FBF300630306 /* PDFWaterMarkTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC0253D31CC6FBF300630306 /* PDFWaterMarkTests.swift */,
+				AC0253D51CC6FBF300630306 /* Info.plist */,
+			);
+			path = PDFWaterMarkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC0253BF1CC6FBF300630306 /* PDFWaterMark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0253D81CC6FBF300630306 /* Build configuration list for PBXNativeTarget "PDFWaterMark" */;
+			buildPhases = (
+				AC0253BC1CC6FBF300630306 /* Sources */,
+				AC0253BD1CC6FBF300630306 /* Frameworks */,
+				AC0253BE1CC6FBF300630306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PDFWaterMark;
+			productName = PDFWaterMark;
+			productReference = AC0253C01CC6FBF300630306 /* PDFWaterMark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC0253CE1CC6FBF300630306 /* PDFWaterMarkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC0253DB1CC6FBF300630306 /* Build configuration list for PBXNativeTarget "PDFWaterMarkTests" */;
+			buildPhases = (
+				AC0253CB1CC6FBF300630306 /* Sources */,
+				AC0253CC1CC6FBF300630306 /* Frameworks */,
+				AC0253CD1CC6FBF300630306 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC0253D11CC6FBF300630306 /* PBXTargetDependency */,
+			);
+			name = PDFWaterMarkTests;
+			productName = PDFWaterMarkTests;
+			productReference = AC0253CF1CC6FBF300630306 /* PDFWaterMarkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC0253B81CC6FBF300630306 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Partha;
+				TargetAttributes = {
+					AC0253BF1CC6FBF300630306 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					AC0253CE1CC6FBF300630306 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = AC0253BF1CC6FBF300630306;
+					};
+				};
+			};
+			buildConfigurationList = AC0253BB1CC6FBF300630306 /* Build configuration list for PBXProject "PDFWaterMark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC0253B71CC6FBF300630306;
+			productRefGroup = AC0253C11CC6FBF300630306 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC0253BF1CC6FBF300630306 /* PDFWaterMark */,
+				AC0253CE1CC6FBF300630306 /* PDFWaterMarkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC0253BE1CC6FBF300630306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0253C61CC6FBF300630306 /* Assets.xcassets in Resources */,
+				AC0253E71CC6FD3000630306 /* roarkSwift.pdf in Resources */,
+				AC0253C91CC6FBF300630306 /* LaunchScreen.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0253CD1CC6FBF300630306 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC0253BC1CC6FBF300630306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC22F03A1CC7B8690057D432 /* UIView.swift in Sources */,
+				AC0253E11CC6FC5800630306 /* PDFViewController.swift in Sources */,
+				AC0253E31CC6FCC600630306 /* PDFRenderer.swift in Sources */,
+				AC0253C41CC6FBF300630306 /* AppDelegate.swift in Sources */,
+				AC0253DF1CC6FC2700630306 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC0253CB1CC6FBF300630306 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC0253D41CC6FBF300630306 /* PDFWaterMarkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC0253D11CC6FBF300630306 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC0253BF1CC6FBF300630306 /* PDFWaterMark */;
+			targetProxy = AC0253D01CC6FBF300630306 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC0253C71CC6FBF300630306 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC0253C81CC6FBF300630306 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC0253D61CC6FBF300630306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC0253D71CC6FBF300630306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC0253D91CC6FBF300630306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDFWaterMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.partha..PDFWaterMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AC0253DA1CC6FBF300630306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PDFWaterMark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.partha..PDFWaterMark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AC0253DC1CC6FBF300630306 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDFWaterMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.partha..PDFWaterMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFWaterMark.app/PDFWaterMark";
+			};
+			name = Debug;
+		};
+		AC0253DD1CC6FBF300630306 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PDFWaterMarkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.partha..PDFWaterMarkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PDFWaterMark.app/PDFWaterMark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC0253BB1CC6FBF300630306 /* Build configuration list for PBXProject "PDFWaterMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0253D61CC6FBF300630306 /* Debug */,
+				AC0253D71CC6FBF300630306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0253D81CC6FBF300630306 /* Build configuration list for PBXNativeTarget "PDFWaterMark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0253D91CC6FBF300630306 /* Debug */,
+				AC0253DA1CC6FBF300630306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC0253DB1CC6FBF300630306 /* Build configuration list for PBXNativeTarget "PDFWaterMarkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC0253DC1CC6FBF300630306 /* Debug */,
+				AC0253DD1CC6FBF300630306 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC0253B81CC6FBF300630306 /* Project object */;
+}
