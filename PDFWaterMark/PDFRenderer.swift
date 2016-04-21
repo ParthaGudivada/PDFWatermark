@@ -91,14 +91,11 @@ public class PDFRenderer {
                 // draw(copy) the current page to the context
                 CGContextDrawPDFPage(currentContext, page)
                 
-                // create a rectangle of the desired size
-                let rectText = CGRectMake(0, 0, 160, 40)
-                
                 CGContextTranslateCTM(currentContext, 0, pageRect.size.height)
                 CGContextScaleCTM(currentContext, 1.0, -1.0)
                 
                 // set the context so that it appears towards the centre
-                CGContextTranslateCTM(currentContext,  (pageRect.size.width - rectText.size.width)/2.0, (pageRect.size.height)/2.0)
+                CGContextTranslateCTM(currentContext, pageRect.size.width/2.0, pageRect.size.height/2.0)
                 
                 // rotate the context by the desired number of radians - the next line is to roate the context by 45 degress anticlockwise
                 CGContextConcatCTM(currentContext, CGAffineTransformMakeRotation(CGFloat(M_PI * -0.25)))
@@ -108,6 +105,13 @@ public class PDFRenderer {
                 let textColor = UIColor.redColor()
                 let textFontAttributes = [NSFontAttributeName: watermarkFont, NSForegroundColorAttributeName: textColor, NSParagraphStyleAttributeName: textStyle]
                 
+                let watermarkSize = (watermarkMessage as NSString).sizeWithAttributes(textFontAttributes)
+                
+                // create a rectangle of the desired size
+                let rectText = CGRectMake(-watermarkSize.width / 2.0, -watermarkSize.height / 2.0, watermarkSize.width, watermarkSize.height)
+                
+                // write the watermark on to the current context
+                watermarkMessage.drawInRect(rectText, withAttributes: textFontAttributes)
                 // write the watermark on to the current context
                 watermarkMessage.drawInRect(rectText, withAttributes: textFontAttributes)
                 
